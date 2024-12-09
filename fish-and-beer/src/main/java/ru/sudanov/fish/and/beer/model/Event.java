@@ -16,7 +16,7 @@ import java.util.List;
 @EqualsAndHashCode
 public class Event {
     @Id
-    @GeneratedValue (strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column
     private String name;
